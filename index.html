@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <title>O Último Cálculo</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<h1>O Último Cálculo</h1>
+
+<div id="game">
+
+    <div id="personagem"></div>
+
+    <div id="porta">
+        Pressione ESPAÇO
+    </div>
+
+</div>
+
+<div id="hud">
+    Pontos: <span id="pontos">0</span>
+</div>
+
+<div id="caixaPergunta" class="oculto">
+
+    <h2 id="pergunta"></h2>
+
+    <button onclick="responder(0)" id="op0"></button>
+    <button onclick="responder(1)" id="op1"></button>
+    <button onclick="responder(2)" id="op2"></button>
+    <button onclick="responder(3)" id="op3"></button>
+
+</div>
+
+<script src="script.js"></script>
+
+</body>
+</html>
